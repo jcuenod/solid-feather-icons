@@ -14,7 +14,7 @@ npm i solid-feather-icons --save
 
 ## Usage
 
-```
+```jsx
 import { Search as SearchIcon } from 'solid-feather-icons'
 
 const SearchButton = ({caption}) =>
