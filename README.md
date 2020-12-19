@@ -18,10 +18,10 @@ npm i solid-feather-icons --save
 import { Search as SearchIcon } from 'solid-feather-icons'
 
 const SearchButton = ({caption}) =>
-				<div>
-								<SearchIcon />
-								Search
-				</div>
+	<div>
+		<SearchIcon />
+		Search
+	</div>
 ```
 
 ### Configuration Options:
