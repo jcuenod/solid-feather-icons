@@ -3,7 +3,7 @@
   "license": "MIT",
   "name": "solid-feather-icons",
   "description": "Feather SVG icons for solid-js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "type": "module",
