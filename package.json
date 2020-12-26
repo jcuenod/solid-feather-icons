@@ -4,8 +4,9 @@
   "name": "solid-feather-icons",
   "description": "Feather SVG icons for solid-js",
   "version": "0.1.1",
-  "main": "src/index.tsx",
-  "module": "dist/index.jsx",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "type": "module",
   "scripts": {
     "build:icons": "node scripts/build.js",
     "build:package": "tsc",
