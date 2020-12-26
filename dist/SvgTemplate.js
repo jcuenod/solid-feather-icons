@@ -16,7 +16,7 @@ var SvgTemplate = function () {
         children[_i] = arguments[_i];
     }
     return function (props) {
-        return _jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", width: props.size || 24, height: props.size || 24, viewBox: "0 0 24 24", fill: "none", stroke: props.color || "currentColor", "stroke-width": props.strokeWidth || 2, "stroke-linecap": "round", "stroke-linejoin": "round", class: "feather feather-activity" }, { children: children }), void 0);
+        return _jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", width: props.size || 24, height: props.size || 24, viewBox: "0 0 24 24", "stroke-width": props.strokeWidth || 2, "stroke-linecap": "round", "stroke-linejoin": "round", class: "feather feather-activity" }, { children: children }), void 0);
     };
 };
 export default SvgTemplate;
