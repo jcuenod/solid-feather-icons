@@ -7,7 +7,7 @@ exports["default"] = void 0;
 
 var _web = require("solid-js/web");
 
-const _tmpl$ = (0, _web.template)(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"></svg>`, 2);
+const _tmpl$ = (0, _web.template)(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"></svg>`, 2);
 
 var SvgTemplate = function SvgTemplate() {
   for (var _len = arguments.length, children = new Array(_len), _key = 0; _key < _len; _key++) {
@@ -22,16 +22,19 @@ var SvgTemplate = function SvgTemplate() {
       (0, _web.effect)(function (_p$) {
         var _v$ = props.size || 24,
             _v$2 = props.size || 24,
-            _v$3 = props.strokeWidth || 2;
+            _v$3 = props.color || "currentColor",
+            _v$4 = props.strokeWidth || 2;
 
         _v$ !== _p$._v$ && (0, _web.setAttribute)(_el$, "width", _p$._v$ = _v$);
         _v$2 !== _p$._v$2 && (0, _web.setAttribute)(_el$, "height", _p$._v$2 = _v$2);
-        _v$3 !== _p$._v$3 && (0, _web.setAttribute)(_el$, "stroke-width", _p$._v$3 = _v$3);
+        _v$3 !== _p$._v$3 && (0, _web.setAttribute)(_el$, "stroke", _p$._v$3 = _v$3);
+        _v$4 !== _p$._v$4 && (0, _web.setAttribute)(_el$, "stroke-width", _p$._v$4 = _v$4);
         return _p$;
       }, {
         _v$: undefined,
         _v$2: undefined,
-        _v$3: undefined
+        _v$3: undefined,
+        _v$4: undefined
       });
       return _el$;
     }();
